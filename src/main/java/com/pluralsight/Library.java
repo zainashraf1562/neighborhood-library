@@ -15,7 +15,6 @@ public class Library {
         books[bookCount++] = new Book(105, "12345679A", "Malala", true, "Ray");
 
         Scanner myScanner = new Scanner(System.in);
-
         menuList(myScanner);
 
         myScanner.close();
